@@ -8,4 +8,5 @@ crate-type = ["cdylib", "lib"]
 
 
 [dependencies]
+borsh = { version = "1.5.7", features = ["derive"] }
 solana-program = "1.18.26"
